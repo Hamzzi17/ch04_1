@@ -23,7 +23,7 @@ int main(void) {
 
 	printf("\n(4) 리스트 첫 번째에 [일] 노드 삭제하기! \n");
 	p = searchNode(L, "일");			// 삭제할 노드 위치 p를 찾음
-	deleteNode(L, p);				// 포인터 p 노드 삭제
+	deleteNode(L, p);					// 포인터 p 노드 삭제
 	printList(L);
 
 	printf("\n(5) 리스트 순서를 역순으로 바꾸기! \n");
