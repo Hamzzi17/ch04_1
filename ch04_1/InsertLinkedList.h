@@ -7,7 +7,7 @@ typedef struct ListNode {
 
 // 리스트의 시작을 나타내는 head 노드를 구조체로 정의
 typedef struct {
-	listNode* head
+	listNode* head;
 } linkedList_h;
 
 linkedList_h* createLinkedList_h(void);
