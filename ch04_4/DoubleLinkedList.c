@@ -39,7 +39,7 @@ void insertNode(linkedList_h* DL, listNode* pre, char* x) {
 	else {
 		newNode->rlink = pre->rlink;
 		pre->rlink = newNode;
-		newNode->rlink = pre;
+		newNode->llink = pre;
 		if (newNode->rlink != NULL)	// 삽입 자리에 다음 노드가 있는 경우
 			newNode->rlink->llink = newNode;
 	}
